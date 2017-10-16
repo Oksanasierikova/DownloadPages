@@ -1,0 +1,42 @@
+<suite name="Suite1">
+    <test name="test1" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTests.RunLogin"/>
+            <methods>
+                <include name="logInToLandstar"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test2" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTests.RunLogin"/>
+            <methods>
+                <include name="addOffice"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test3" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTests.RunLogin"/>
+            <methods>
+                <include name="search"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test4" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTests.RunLogin"/>
+            <methods>
+                <include name="goToViewOffice"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test5" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTests.RunLogin"/>
+            <methods>
+                <include name="uploadPhoto"></include>
+            </methods>
+        </classes>
+    </test>
+</suite>
